@@ -294,3 +294,4 @@ I'm always up for conversations about **technology, education, and building thin
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f093fb,50:764ba2,100:667eea&height=140&section=footer" />
 
 </div>
+
