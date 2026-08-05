@@ -1,297 +1,366 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=220&section=header&text=Shiva%20Ganesh%20Talikota&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Founder%20@%20matriXO%20%7C%20EdTech%20Entrepreneur%20%7C%20AI%2FML%20Builder&descAlignY=55&descSize=18" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:4338ca,100:7c3aed&height=200&section=header&text=Shiva%20Ganesh%20Talikota&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Product%20Development%20Engineer%20%C2%B7%20Applied%20AI%20%26%20Full-Stack%20Systems&descAlignY=56&descSize=16" />
 
 <a href="https://shivaganesht.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=764BA2&center=true&vCenter=true&width=700&lines=Transforming+education+through+technology.;Founder+%26+CEO+at+matriXO+%F0%9F%9A%80;Agentic+AI+%2B+NLP+Researcher+%F0%9F%A4%96;44K%2B+community+builder+%40stable.speaks+%F0%9F%93%A2;Building+in+public+from+Hyderabad%2C+India+%F0%9F%87%AE%F0%9F%87%B3" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C3AED&center=true&vCenter=true&width=720&lines=Product+Development+Engineer+%40+matriXO;RAG+pipelines%2C+agentic+workflows%2C+shipped+products;Python+%C2%B7+TypeScript+%C2%B7+Next.js+%C2%B7+PyTorch+%C2%B7+Solidity;B.Tech+CSE+(AI+%26+ML)+'26+%C2%B7+Hyderabad%2C+India" alt="Typing SVG" />
 </a>
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-shivaganesht.vercel.app-667eea?style=for-the-badge&logo=vercel&logoColor=white)](https://shivaganesht.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shivaganesht)
-[![Instagram](https://img.shields.io/badge/@stable.speaks-44.1K-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/stable.speaks)
-[![matriXO](https://img.shields.io/badge/matriXO-matrixo.in-764ba2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://matrixo.in)
+[![Portfolio](https://img.shields.io/badge/Portfolio-shivaganesht.vercel.app-4338ca?style=for-the-badge&logo=vercel&logoColor=white)](https://shivaganesht.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-shivaganesht-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shivaganesht)
 [![Email](https://img.shields.io/badge/Email-shivaganesht@icloud.com-EA4335?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:shivaganesht@icloud.com)
+[![matriXO](https://img.shields.io/badge/matriXO-matrixo.in-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white)](https://matrixo.in)
 
-<img src="https://komarev.com/ghpvc/?username=shivaganeshtalikota&label=Profile+Views&color=764ba2&style=for-the-badge" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=shivaganeshtalikota&label=Profile+Views&color=7c3aed&style=flat-square" alt="Profile views" />
 
 </div>
 
 ---
 
-## 👋 About Me
+## About
 
-```yaml
-name:      Shiva Ganesh Talikota
-role:      Founder & CEO @ matriXO
-location:  Hyderabad, Telangana, India 🇮🇳
-education: B.Tech CSE (AI & ML) @ KPRIT, Hyderabad  # 2022 – 2026
-building:  matriXO · OSSEB
-focus:     [ Agentic AI, NLP Research, EdTech, Blockchain, Community ]
-philosophy: "Learn by doing, and teach what you learn."
+```python
+from dataclasses import dataclass
+
+@dataclass(frozen=True)
+class Engineer:
+    name:     str = "Shiva Ganesh Talikota"
+    role:     str = "Product Development Engineer @ matriXO"
+    base:     str = "Hyderabad, IN (UTC+05:30)"
+    degree:   str = "B.Tech CSE, AI & ML — KPRIT, 2022-2026"
+    ships:    tuple = ("retrieval systems", "agentic pipelines", "Next.js products")
+    depth:    tuple = ("Python", "TypeScript", "PyTorch", "Node.js")
+    open_to:  str = "SWE / AI-platform / product-engineering roles, 2026"
+
+    def __str__(self) -> str:
+        return f"{self.name} — {self.role}"
 ```
 
-I'm a passionate entrepreneur and tech innovator dedicated to **transforming education through technology**. As the Founder of **matriXO**, I'm building AI-powered EdTech that bridges the gap between academia and industry — personalising how college students learn and how they land their first role.
+I work on the product side of applied AI: taking a model or a retrieval pipeline that works in a notebook and turning it into something with a URL, auth, error states, and a person on the other end using it. Most of my time goes to **matriXO**, an EdTech platform that maps what students actually learn in college against what roles actually ask for, and closes the gap with targeted recommendations.
 
-Outside of building, I speak at startup ecosystems like **T-Hub Hyderabad**, help organise the **CSR Summit 2025**, and share AI & career insights with **44K+ people** as **[@stable.speaks](https://instagram.com/stable.speaks)**.
+The rest goes to retrieval systems. I care about the unglamorous parts — chunking strategy, whether the retriever surfaced the right passage, and whether the answer cites something a user can verify. A confident wrong answer is worse than no answer, especially in compliance and education.
 
-> 📌 **Note:** My original GitHub account **[@shivaganesht](https://github.com/shivaganesht)** — home to 55+ project repositories — was suspended without an explanation, and I'm actively working with GitHub Support to restore it. This account hosts my current work in the meantime. If you can help escalate, please [reach out](mailto:shivaganesht@icloud.com). 🙏
+I also run **[@stable.speaks](https://instagram.com/stable.speaks)** (44K+), where I explain AI and career tooling to students. Teaching a concept to 44,000 people who will call you out is a fast way to find the holes in your own understanding.
+
+<div align="center">
+
+![Audience](https://img.shields.io/badge/@stable.speaks-44.1K_followers-E4405F?style=flat-square&logo=instagram&logoColor=white)
+![CSR Summit](https://img.shields.io/badge/CSR_Summit_2025-1000%2B_attendees_organised-4338ca?style=flat-square)
+![T-Hub](https://img.shields.io/badge/T--Hub_Hyderabad-200%2B_at_talk-7c3aed?style=flat-square)
+![Workshops](https://img.shields.io/badge/Agentic_AI-workshop_delivered-0f172a?style=flat-square)
+
+</div>
 
 ---
 
-## 🚀 What I'm Working On
+## Systems I've Built
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<th align="left" width="18%">Project</th>
+<th align="left" width="30%">Problem</th>
+<th align="left" width="34%">How I approached it</th>
+<th align="left" width="18%">Stack</th>
+</tr>
 
-### 🎓 matriXO — <sub>`Active Development`</sub>
-AI-driven Ed-Tech platform enhancing learning for college students. ML-personalised education that closes the academia ↔ industry gap.
+<tr>
+<td valign="top">
 
-`Python` `TensorFlow` `React` `Next.js` `Node.js`
-
-🔗 **[matrixo.in](https://matrixo.in)**
+**matriXO**<br/>
+`in production`<br/>
+[matrixo.in](https://matrixo.in)
 
 </td>
-<td width="50%" valign="top">
+<td valign="top">College curricula and hiring requirements drift apart. Students find out at placement season, which is far too late to act on.</td>
+<td valign="top">Model coursework and job descriptions in the same skill space, diff them per student, and recommend the shortest path across the gap. Product surface is a Next.js app over a Node API, with the scoring/recommendation work isolated in a Python service so it can change without redeploying the frontend.</td>
+<td valign="top">
 
-### 🏛️ pAIr — <sub>`Code Unnati Marathon 4.0`</sub>
-AI-Powered **MSME Compliance & Government Scheme Navigator** — helping small businesses decode regulation and find the schemes they qualify for.
-
-`Python` `NLP` `RAG`
-
-🔗 **[Live Demo](https://pair-code-unnati-proj.vercel.app)** · **[Code](https://github.com/shivaganeshtalikota/pAIr-764)**
+`Next.js` `Node.js`<br/>`Python` `MongoDB`<br/>`Vercel`
 
 </td>
 </tr>
+
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
 
-### 🏠 PropChain — <sub>`Prototype`</sub>
-Blockchain platform for **fractional real-estate ownership** — democratising property investment via smart contracts and asset tokenization.
-
-`Solidity` `Web3.js` `React` `Hardhat`
+**pAIr**<br/>
+`Code Unnati Marathon 4.0`<br/>
+[demo](https://pair-code-unnati-proj.vercel.app) · [code](https://github.com/shivaganeshtalikota/pAIr-764)
 
 </td>
-<td width="50%" valign="top">
+<td valign="top">An MSME owner cannot read 400 pages of scheme documentation to find the three subsidies they qualify for — and a hallucinated eligibility answer costs them a rejected application.</td>
+<td valign="top">RAG over the government scheme corpus rather than a fine-tune, so the source of every claim stays inspectable. Documents chunked with overlap to survive clause boundaries, embedded into a vector index, top-<em>k</em> retrieved per query, and generation constrained to the retrieved context with citations attached. If retrieval returns nothing relevant, the system says so instead of improvising.</td>
+<td valign="top">
 
-### 🧠 Psypher Bot — <sub>`Research`</sub>
-Intelligent chatbot for **mental-health support**, using NLP and sentiment analysis to deliver personalised psychological guidance.
-
-`Python` `NLTK` `TensorFlow`
+`Python` `RAG`<br/>`embeddings`<br/>`Next.js` `Vercel`
 
 </td>
 </tr>
+
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
 
-### 🥗 Nutri Advice — <sub>`MVP`</sub>
-AI nutrition advisor combining machine learning with nutritional science for personalised dietary recommendations.
-
-`Python` `Scikit-learn` `React Native`
+**Amazon ML Challenge**<br/>
+`competition`
 
 </td>
-<td width="50%" valign="top">
+<td valign="top">Extract structured entity values — weight, volume, dimensions — directly from raw product listing images at catalogue scale.</td>
+<td valign="top">Two-stage pipeline: a vision pass to localise and read text off the packaging, then a unit-aware parser that normalises every extracted value to canonical units. The parser mattered more than the model — "500 g", "0.5kg" and "500gm" are the same fact, and scoring punished every disagreement.</td>
+<td valign="top">
 
-### 📦 Amazon ML Challenge — <sub>`Competition`</sub>
-**Entity extraction from product images** using deep learning — computer vision for automated product categorisation and metadata extraction.
+`PyTorch` `OpenCV`<br/>`Python`
 
-`Python` `PyTorch` `OpenCV`
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+
+**PropChain**<br/>
+`prototype`
+
+</td>
+<td valign="top">Real-estate investment has a floor price that excludes most people. Fractional ownership needs a trustworthy ledger of who owns what share.</td>
+<td valign="top">Tokenised property equity as transferable on-chain units, with ownership and transfer logic in Solidity contracts and a Hardhat local chain for tests. Deliberately still a prototype — the contract surface needs an audit before it touches anything real, and I would rather say that than ship it.</td>
+<td valign="top">
+
+`Solidity` `Hardhat`<br/>`Web3.js` `React`
+
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+
+**Psypher Bot**<br/>
+`research`
+
+</td>
+<td valign="top">Support conversations need to react to how someone is writing, not just what they asked.</td>
+<td valign="top">Sentiment and intent classification over each user turn, conditioning which response strategy the bot selects. Built explicitly as a research artefact, not a clinical tool — that boundary is a design constraint, not a disclaimer.</td>
+<td valign="top">
+
+`Python` `NLTK`<br/>`TensorFlow`
+
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+
+**Nutri Advice**<br/>
+`MVP`
+
+</td>
+<td valign="top">Generic nutrition guidance ignores individual constraints, so nobody follows it.</td>
+<td valign="top">Recommendation over a nutrient-profile model with user constraints as hard filters, wrapped in a React Native client so it lives where people actually make food decisions.</td>
+<td valign="top">
+
+`scikit-learn`<br/>`React Native`
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>🔬 More experiments &amp; hackathon builds</b></summary>
+<summary><b>Experiments, workshops &amp; hackathon builds</b></summary>
 
 <br/>
 
 | Project | What it is | Stack | Link |
 |---|---|---|---|
-| **scanseqjs** | Sequence-scanning experiment in the browser | `JavaScript` | [Live](https://scanseqjs.vercel.app) |
-| **agentic-ai-workshop-avn** | Materials from an Agentic AI workshop I delivered | `Python` | [Repo](https://github.com/shivaganeshtalikota/agentic-ai-workshop-avn) |
-| **infinova-hackathon** | Hackathon build — Infinova | `JavaScript` | [Live](https://infinova-hackathon.vercel.app) |
-| **matrixo-website-deployment** | matriXO Web Dev Internship — Technical Evaluation R1 | `TypeScript` | [Live](https://matrixo-website-deployment.vercel.app) |
-| **THK-Website** | Personal site built for a client | `JavaScript` | [Live](https://talikotaharikrishna.vercel.app) |
-| **snake-game** | Because every dev needs one 🐍 | `JavaScript` | [Play](https://snake-game-beige-mu.vercel.app) |
+| **agentic-ai-workshop-avn** | Teaching material from an Agentic AI workshop I ran — tool-calling loops built up from scratch | `Python` | [Repo](https://github.com/shivaganeshtalikota/agentic-ai-workshop-avn) |
+| **scanseqjs** | Browser-side sequence scanning — kept the work off the server entirely | `JavaScript` | [Live](https://scanseqjs.vercel.app) |
+| **infinova-hackathon** | Hackathon build, shipped inside the time box | `JavaScript` | [Live](https://infinova-hackathon.vercel.app) |
+| **matrixo-website-deployment** | matriXO Web Dev Internship — technical evaluation R1 | `TypeScript` | [Live](https://matrixo-website-deployment.vercel.app) |
+| **THK-Website** | Client site, spec to deploy | `JavaScript` | [Live](https://talikotaharikrishna.vercel.app) |
+| **snake-game** | Collision detection and a game loop, written for fun | `JavaScript` | [Play](https://snake-game-beige-mu.vercel.app) |
 
 </details>
 
 ---
 
-## 🛠️ Tech Stack
+## How pAIr Works
+
+The retrieval path is where the engineering decisions live, so here it is end to end:
+
+```mermaid
+flowchart LR
+    A["MSME scheme docs<br/>PDF · circulars"] --> B["Chunk<br/>overlap preserves<br/>clause context"]
+    B --> C["Embed"]
+    C --> D[("Vector index")]
+
+    Q["User query<br/>'Am I eligible?'"] --> E["Embed query"]
+    E --> F["Top-k retrieve"]
+    D --> F
+
+    F --> G{"Relevant<br/>context?"}
+    G -->|no| H["Decline<br/>· no invented eligibility"]
+    G -->|yes| I["Generate<br/>grounded in retrieved text"]
+    I --> J["Answer + citations<br/>· user can verify source"]
+
+    style H fill:#7f1d1d,stroke:#ef4444,color:#fff
+    style J fill:#14532d,stroke:#22c55e,color:#fff
+    style D fill:#312e81,stroke:#818cf8,color:#fff
+```
+
+The branch at `G` is the whole point. Anything that ships an eligibility answer to a small business owner needs a path where it refuses, and the citation trail exists so the user never has to take the model's word for it.
+
+---
+
+## Tech
 
 <div align="center">
 
-**Languages**
+**Ship with these regularly**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-**AI / ML**
+**Working knowledge — used on real projects, still deepening**
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![NLTK](https://img.shields.io/badge/NLTK-154f5b?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 
-**Web & Mobile**
+**Concepts I work in**
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white)
-
-**Data & Cloud**
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+`RAG` · `vector search & embeddings` · `agentic tool-calling loops` · `transformers & attention` · `recommender systems` · `computer vision pipelines` · `REST API design` · `CI/CD`
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## Experience
+
+| When | Role | What it involved |
+|---|---|---|
+| **2024 – Present** | **Product Development Engineer** — matriXO, Hyderabad | Own the product surface end to end: architecture, Next.js/Node build-out, the Python recommendation service, and release. |
+| **2025** | **Core Team** — CSR Summit 2025 | Operations for a 1000+ attendee summit — logistics, scheduling, on-day execution. |
+| **2024** | **Speaker** — T-Hub Hyderabad | Talk on EdTech systems to 200+ founders and students. |
+| **2023 – Present** | **Creator** — [@stable.speaks](https://instagram.com/stable.speaks) | 44.1K+ following. AI tooling and career engineering, explained for students. |
+| — | **Intern** — Student Tribe · Ex-**TurboHire** · **Crowdsource by Google India** | Product and data work across hiring tech and open data collection. |
+| **2022 – 2026** | **B.Tech CSE (AI &amp; ML)** — KPRIT, Hyderabad | Coursework in ML, DL, DSA, systems. |
+
+Also building **OSSEB**.
+
+---
+
+## GitHub
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=shivaganeshtalikota&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=764ba2&icon_color=667eea" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivaganeshtalikota&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=764ba2" />
+<!--
+  NOTE ON THESE WIDGETS
+  github-readme-stats.vercel.app (the default public instance) returns 503 under
+  rate limiting, which is why these cards were showing as broken images. The URLs
+  below point at a working deployment.
 
-<br/>
+  PERMANENT FIX (~5 min, zero cost): deploy your own instance —
+    1. Fork github.com/anuraghazra/github-readme-stats
+    2. Import the fork at vercel.com/new
+    3. Add env var PAT_1 = a GitHub personal access token (public_repo scope)
+    4. Replace the host below with your own <your-app>.vercel.app
+  A self-hosted instance uses your own rate limit and will not go down with the
+  shared one.
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=shivaganeshtalikota&theme=tokyonight&hide_border=true&background=0D1117&ring=764ba2&fire=f093fb&currStreakLabel=667eea" />
+  Two widgets were removed rather than left to break intermittently:
+    - github-profile-trophy.vercel.app  -> returns HTTP 402 (billing lapsed)
+    - streak-stats.demolab.com          -> flaps between 200 and 503
+  The activity graph below already shows consistency, and it is reliable.
+-->
+
+<img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=shivaganeshtalikota&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7c3aed&icon_color=818cf8&cache_seconds=86400" alt="GitHub stats" />
+<img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=shivaganeshtalikota&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7c3aed&cache_seconds=86400" alt="Top languages" />
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=shivaganeshtalikota&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" />
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=shivaganeshtalikota&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=7c3aed&line=818cf8&point=a78bfa&area=true" alt="Contribution activity" />
+
+</div>
+
+---
+
+## What I'm Working Through Next
+
+Things currently open on my desk, not a curriculum:
+
+- **Evaluating retrieval, not vibes** — building a labelled question set for pAIr so retrieval quality is a number that moves, instead of a judgement call after five manual queries.
+- **Agentic loops that fail well** — tool-calling agents are easy to demo and hard to make recover from a bad tool response. Working on retry and fallback behaviour that does not spiral.
+- **Serving models cheaply** — batching, caching and quantisation, because inference cost is a product constraint for a student-facing platform, not an implementation detail.
+- **Reading** — the attention and retrieval literature, and other people's production post-mortems, which teach more per page than most papers.
+
+---
+
+## Open To
+
+**Roles** — Product Development Engineer · Software Engineer (Full-Stack / AI-Platform) · Applied ML Engineer
+
+**Available** — internships and part-time now · full-time from mid-2026 (graduating B.Tech CSE, AI & ML)
+
+**Location** — Hyderabad · remote · open to relocating within India
+
+**What I bring on day one** — shipping Next.js and Node products, Python services, retrieval systems that are honest about what they do not know, and the habit of finishing things and putting them in front of users.
+
+If you are hiring for any of that, or you want a second pair of hands on an AI product, **[email me](mailto:shivaganesht@icloud.com)** or **[reach me on LinkedIn](https://linkedin.com/in/shivaganesht)**. I reply to everything.
+
+---
+
+<details>
+<summary><b>Certifications</b></summary>
 
 <br/>
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=shivaganeshtalikota&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=764ba2&line=667eea&point=f093fb&area=true" />
-
-</div>
-
----
-
-## 🏆 Experience & Impact
-
-<table>
-<tr><th align="left">When</th><th align="left">What</th><th align="left">Impact</th></tr>
-<tr>
-<td><b>2024 – Present</b></td>
-<td>🚀 <b>Founder &amp; CEO</b> — matriXO, Hyderabad</td>
-<td>Building EdTech that bridges academia and industry</td>
-</tr>
-<tr>
-<td><b>2025</b></td>
-<td>🤝 <b>Core Team</b> — CSR Summit 2025</td>
-<td>Organising for <b>1000+</b> CSR professionals</td>
-</tr>
-<tr>
-<td><b>2024</b></td>
-<td>🎤 <b>Speaker</b> — T-Hub Hyderabad</td>
-<td>Inspired <b>200+</b> entrepreneurs &amp; students on EdTech innovation</td>
-</tr>
-<tr>
-<td><b>2023 – Present</b></td>
-<td>📢 <b>Content Creator</b> — @stable.speaks</td>
-<td><b>44.1K+</b> followers · AI &amp; career hacks for students</td>
-</tr>
-<tr>
-<td><b>2023 – Present</b></td>
-<td>💻 <b>Open Source Contributor</b></td>
-<td><b>400+</b> contributions · GitHub Pro</td>
-</tr>
-<tr>
-<td><b>2022 – 2026</b></td>
-<td>🎓 <b>B.Tech CSE (AI &amp; ML)</b> — KPRIT, Hyderabad</td>
-<td>Specialising in applied AI/ML</td>
-</tr>
-</table>
-
-**Also:** Building **OSSEB** · Intern @ **Student Tribe** · Ex-**TurboHire** · **Crowdsource by Google India** contributor
-
----
-
-## 🌱 Currently Learning & Researching
-
-<div align="center">
-
-| 🎯 Learning | Domain | Progress |
-|---|---|---|
-| **Agentic AI Systems** — autonomous agents that plan, execute & adapt | AI/ML | `███████░░░` 75% |
-| **Advanced NLP & Transformers** — attention, architectures, LLMs | Deep Learning | `██████░░░░` 60% |
-| **MLOps & Production AI** — deploy, monitor, maintain at scale | Engineering | `█████░░░░░` 55% |
-| **Scaling Startup Operations** — lean, growth, operational excellence | Business | `████░░░░░░` 45% |
-
-</div>
-
-**🔬 Active research threads**
-- **Educational AI Personalization** — adaptive learning algorithms driven by individual cognitive models
-- **Computer Vision for EdTech** — automated assessment and learning analytics
-- **Conversational AI for Learning** — intelligent tutoring systems that teach through dialogue
-
----
-
-## 📜 Certifications
 
 | Certification | Issuer | Year |
 |---|---|---|
 | Google Cloud Arcade Program | Google Cloud | 2024 |
 | Introduction to MongoDB | MongoDB University | 2024 |
 | Cybersecurity Awareness | Industry | 2024 |
-| C Programming | Academic | 2024 |
 | Introduction to Graphic Design | Coursera | 2023 |
 
----
+</details>
 
-## 🤝 Open to Collaborate On
+<details>
+<summary><b>About this account</b></summary>
+
+<br/>
+
+My earlier account **[@shivaganesht](https://github.com/shivaganesht)** — which held 55+ repositories — was suspended without a stated reason, and I have an open case with GitHub Support to restore it. Active work lives here in the meantime, and older projects are being migrated across. If you have a route to escalate it, I would genuinely appreciate the help: [shivaganesht@icloud.com](mailto:shivaganesht@icloud.com).
+
+</details>
+
+---
 
 <div align="center">
 
-| 🎓 EdTech Innovation | 🤖 AI/ML Research | 🌐 Community Building | 💚 Open Source |
-|:---:|:---:|:---:|:---:|
-| Next-gen educational technology | Advancing ML in education & beyond | Growing developer ecosystems | Contributing & maintaining |
-
-</div>
-
----
-
-## 📫 Let's Connect
-
-<div align="center">
-
-I'm always up for conversations about **technology, education, and building things that matter**.
-
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-shivaganesht.vercel.app-667eea?style=for-the-badge)](https://shivaganesht.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-shivaganesht.vercel.app-4338ca?style=for-the-badge&logo=vercel&logoColor=white)](https://shivaganesht.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shivaganesht-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shivaganesht)
 [![Instagram](https://img.shields.io/badge/Instagram-stable.speaks-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/stable.speaks)
-[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-shivaganesht-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/user/shivaganesht/)
+[![GeeksforGeeks](https://img.shields.io/badge/GfG-shivaganesht-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/user/shivaganesht/)
 [![Email](https://img.shields.io/badge/Email-shivaganesht@icloud.com-EA4335?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:shivaganesht@icloud.com)
 
 <br/>
 
-> *"I believe in learning by doing and teaching what you learn. Technology evolves rapidly, and staying curious, experimenting with new tools, and contributing to the community are essential for meaningful growth. Every project is an opportunity to learn something new."*
+<sub>Building from Hyderabad, India 🇮🇳</sub>
 
-<br/>
-
-⭐️ **From [Shiva Ganesh Talikota](https://github.com/shivaganeshtalikota)** — building from Hyderabad, India 🇮🇳
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f093fb,50:764ba2,100:667eea&height=140&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:4338ca,100:0f172a&height=120&section=footer" />
 
 </div>
-
