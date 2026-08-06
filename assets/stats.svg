@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="195" viewBox="0 0 480 195" role="img" aria-label="GitHub activity summary">
+  <style>
+    .row { opacity: 0; animation: slide .6s ease-out forwards; }
+    .r0 { animation-delay: 0.15s; }
+    .r1 { animation-delay: 0.27s; }
+    .r2 { animation-delay: 0.39s; }
+    .r3 { animation-delay: 0.51s; }
+    @keyframes slide { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: translateX(0); } }
+  </style>
+  <rect x="0.5" y="0.5" width="479" height="194" rx="10" fill="#0d1117" stroke="#26304a"/>
+  <text x="24" y="34" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,sans-serif" font-size="15.5" font-weight="700" fill="#a78bfa">GitHub Activity</text>
+  <text x="24" y="52" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="10.5" fill="#6b7280">@shivaganeshtalikota &#183; refreshed 06 Aug 2026</text>
+  <line x1="24" y1="60" x2="456" y2="60" stroke="#26304a"/>
+
+  <g class="row r0">
+    <circle cx="30" cy="69" r="3" fill="#a78bfa"/>
+    <text x="44" y="74" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,sans-serif" font-size="13.5" fill="#8b949e">Contributions</text>
+    <text x="300" y="74" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="15" font-weight="700" fill="#e6edf3" text-anchor="end">115</text>
+    <text x="312" y="74" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,sans-serif" font-size="11" fill="#6b7280">last 12 months</text>
+  </g>
+  <g class="row r1">
+    <circle cx="30" cy="97" r="3" fill="#a78bfa"/>
+    <text x="44" y="102" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,sans-serif" font-size="13.5" fill="#8b949e">Pull requests</text>
+    <text x="300" y="102" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="15" font-weight="700" fill="#e6edf3" text-anchor="end">42</text>
+    <text x="312" y="102" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,sans-serif" font-size="11" fill="#6b7280">opened</text>
+  </g>
+  <g class="row r2">
+    <circle cx="30" cy="125" r="3" fill="#a78bfa"/>
+    <text x="44" y="130" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,sans-serif" font-size="13.5" fill="#8b949e">Repositories</text>
+    <text x="300" y="130" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="15" font-weight="700" fill="#e6edf3" text-anchor="end">6</text>
+    <text x="312" y="130" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,sans-serif" font-size="11" fill="#6b7280">public, authored</text>
+  </g>
+  <g class="row r3">
+    <circle cx="30" cy="153" r="3" fill="#a78bfa"/>
+    <text x="44" y="158" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,sans-serif" font-size="13.5" fill="#8b949e">Primary language</text>
+    <text x="300" y="158" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="15" font-weight="700" fill="#e6edf3" text-anchor="end">Python</text>
+    <text x="312" y="158" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,sans-serif" font-size="11" fill="#6b7280">by volume</text>
+  </g>
+</svg>

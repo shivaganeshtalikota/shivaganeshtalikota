@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" role="img" aria-label="Shiva Ganesh Talikota, Product Development Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="45%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sheen { animation: sweep 7s ease-in-out infinite; }
+    @keyframes sweep { 0% { transform: translateX(-45%); } 100% { transform: translateX(115%); } }
+    .fade { opacity: 0; animation: fade .9s ease-out forwards; }
+    .d1 { animation-delay: .15s; } .d2 { animation-delay: .4s; } .d3 { animation-delay: .65s; }
+    @keyframes fade { to { opacity: 1; } }
+    .dot { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+  </style>
+
+  <rect width="1000" height="200" fill="url(#bg)"/>
+  <g opacity="0.35">
+    <path d="M0 150 Q 250 110 500 148 T 1000 132 V200 H0 Z" fill="#0b1020" opacity="0.55"/>
+    <path d="M0 168 Q 250 138 500 170 T 1000 156 V200 H0 Z" fill="#0b1020" opacity="0.8"/>
+  </g>
+  <rect class="sheen" width="320" height="200" fill="url(#sheen)"/>
+
+  <text class="fade d1" x="60" y="82" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,sans-serif" font-size="42" font-weight="700" fill="#ffffff">Shiva Ganesh Talikota</text>
+  <rect class="fade d2" x="60" y="98" width="230" height="2" fill="url(#rule)"/>
+  <text class="fade d2" x="60" y="128" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,sans-serif" font-size="18" font-weight="600" fill="#c7d2fe">Product Development Engineer</text>
+  <text class="fade d3" x="60" y="154" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="13.5" fill="#a5b4fc">Applied AI &#183; retrieval systems &#183; full-stack product</text>
+
+  <g class="fade d3" transform="translate(830,60)">
+    <circle class="dot" cx="0" cy="0" r="4" fill="#4ade80"/>
+    <text x="14" y="4.5" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="12.5" fill="#bbf7d0">open to 2026 roles</text>
+  </g>
+</svg>

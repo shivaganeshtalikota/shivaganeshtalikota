@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="46" viewBox="0 0 760 46" role="img" aria-label="Product Development Engineer @ matriXO / RAG pipelines, agentic workflows, shipped products / Python · TypeScript · Next.js · PyTorch / B.Tech CSE (AI &amp; ML) '26 · Hyderabad, India">
+  <style>
+    #clip0 rect { animation: type0 14.4s steps(38,end) infinite; }
+    @keyframes type0 {
+      0%, 0.000% { width: 0; }
+      10.417%, 20.833% { width: 421.8px; }
+      25.000%, 100% { width: 0; }
+    }
+    #cur0 { opacity: 0; animation: cur0 14.4s steps(38,end) infinite; }
+    @keyframes cur0 {
+      0%, 0.000% { opacity: 0; transform: translateX(0); }
+      0.001% { opacity: 1; transform: translateX(0); }
+      10.417%, 20.833% { opacity: 1; transform: translateX(421.8px); }
+      24.999% { opacity: 1; transform: translateX(0); }
+      25.000%, 100% { opacity: 0; transform: translateX(0); }
+    }
+    #clip1 rect { animation: type1 14.4s steps(50,end) infinite; }
+    @keyframes type1 {
+      0%, 25.000% { width: 0; }
+      35.417%, 45.833% { width: 555.0px; }
+      50.000%, 100% { width: 0; }
+    }
+    #cur1 { opacity: 0; animation: cur1 14.4s steps(50,end) infinite; }
+    @keyframes cur1 {
+      0%, 25.000% { opacity: 0; transform: translateX(0); }
+      25.001% { opacity: 1; transform: translateX(0); }
+      35.417%, 45.833% { opacity: 1; transform: translateX(555.0px); }
+      49.999% { opacity: 1; transform: translateX(0); }
+      50.000%, 100% { opacity: 0; transform: translateX(0); }
+    }
+    #clip2 rect { animation: type2 14.4s steps(39,end) infinite; }
+    @keyframes type2 {
+      0%, 50.000% { width: 0; }
+      60.417%, 70.833% { width: 432.9px; }
+      75.000%, 100% { width: 0; }
+    }
+    #cur2 { opacity: 0; animation: cur2 14.4s steps(39,end) infinite; }
+    @keyframes cur2 {
+      0%, 50.000% { opacity: 0; transform: translateX(0); }
+      50.001% { opacity: 1; transform: translateX(0); }
+      60.417%, 70.833% { opacity: 1; transform: translateX(432.9px); }
+      74.999% { opacity: 1; transform: translateX(0); }
+      75.000%, 100% { opacity: 0; transform: translateX(0); }
+    }
+    #clip3 rect { animation: type3 14.4s steps(43,end) infinite; }
+    @keyframes type3 {
+      0%, 75.000% { width: 0; }
+      85.417%, 95.833% { width: 477.3px; }
+      100.000%, 100% { width: 0; }
+    }
+    #cur3 { opacity: 0; animation: cur3 14.4s steps(43,end) infinite; }
+    @keyframes cur3 {
+      0%, 75.000% { opacity: 0; transform: translateX(0); }
+      75.001% { opacity: 1; transform: translateX(0); }
+      85.417%, 95.833% { opacity: 1; transform: translateX(477.3px); }
+      99.999% { opacity: 1; transform: translateX(0); }
+      100.000%, 100% { opacity: 0; transform: translateX(0); }
+    }
+  </style>
+  
+  <clipPath id="clip0"><rect x="0" y="0" width="0" height="46"/></clipPath>
+  <g clip-path="url(#clip0)">
+    <text x="0" y="30" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="17" font-weight="600" fill="#a78bfa">Product Development Engineer @ matriXO</text>
+  </g>
+  <rect id="cur0" x="0" y="12" width="2" height="22" fill="#818cf8"/>
+  <clipPath id="clip1"><rect x="0" y="0" width="0" height="46"/></clipPath>
+  <g clip-path="url(#clip1)">
+    <text x="0" y="30" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="17" font-weight="600" fill="#a78bfa">RAG pipelines, agentic workflows, shipped products</text>
+  </g>
+  <rect id="cur1" x="0" y="12" width="2" height="22" fill="#818cf8"/>
+  <clipPath id="clip2"><rect x="0" y="0" width="0" height="46"/></clipPath>
+  <g clip-path="url(#clip2)">
+    <text x="0" y="30" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="17" font-weight="600" fill="#a78bfa">Python · TypeScript · Next.js · PyTorch</text>
+  </g>
+  <rect id="cur2" x="0" y="12" width="2" height="22" fill="#818cf8"/>
+  <clipPath id="clip3"><rect x="0" y="0" width="0" height="46"/></clipPath>
+  <g clip-path="url(#clip3)">
+    <text x="0" y="30" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="17" font-weight="600" fill="#a78bfa">B.Tech CSE (AI &amp; ML) '26 · Hyderabad, India</text>
+  </g>
+  <rect id="cur3" x="0" y="12" width="2" height="22" fill="#818cf8"/>
+</svg>
