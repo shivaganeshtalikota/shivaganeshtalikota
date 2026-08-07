@@ -11,25 +11,25 @@
   <text x="24" y="34" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,sans-serif" font-size="15.5" font-weight="700" fill="#a78bfa">Languages</text>
   <text x="24" y="52" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="10.5" fill="#6b7280">by bytes written across public repos</text>
   <rect x="24" y="74" width="432" height="12" rx="2" fill="#161b22"/>
-  <rect class="seg s0" x="24.00" y="74" width="217.56" height="12" rx="2" fill="#3572A5"/>
-  <rect class="seg s1" x="243.06" y="74" width="173.04" height="12" rx="2" fill="#f1e05a"/>
-  <rect class="seg s2" x="417.61" y="74" width="26.39" height="12" rx="2" fill="#563d7c"/>
-  <rect class="seg s3" x="445.49" y="74" width="9.01" height="12" rx="2" fill="#e34c26"/>
+  <rect class="seg s0" x="24.00" y="74" width="221.33" height="12" rx="2" fill="#3572A5"/>
+  <rect class="seg s1" x="246.83" y="74" width="169.95" height="12" rx="2" fill="#f1e05a"/>
+  <rect class="seg s2" x="418.29" y="74" width="25.89" height="12" rx="2" fill="#563d7c"/>
+  <rect class="seg s3" x="445.68" y="74" width="8.82" height="12" rx="2" fill="#e34c26"/>
 
   <g class="seg s0">
     <circle cx="30" cy="114" r="4.5" fill="#3572A5"/>
     <text x="42" y="118" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,sans-serif" font-size="12.5" fill="#e6edf3">Python</text>
-    <text x="226" y="118" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="12" fill="#8b949e" text-anchor="end">50.7%</text>
+    <text x="226" y="118" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="12" fill="#8b949e" text-anchor="end">51.6%</text>
   </g>
   <g class="seg s1">
     <circle cx="254" cy="114" r="4.5" fill="#f1e05a"/>
     <text x="266" y="118" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,sans-serif" font-size="12.5" fill="#e6edf3">JavaScript</text>
-    <text x="450" y="118" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="12" fill="#8b949e" text-anchor="end">40.4%</text>
+    <text x="450" y="118" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="12" fill="#8b949e" text-anchor="end">39.7%</text>
   </g>
   <g class="seg s2">
     <circle cx="30" cy="139" r="4.5" fill="#563d7c"/>
     <text x="42" y="143" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Helvetica,sans-serif" font-size="12.5" fill="#e6edf3">CSS</text>
-    <text x="226" y="143" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="12" fill="#8b949e" text-anchor="end">6.5%</text>
+    <text x="226" y="143" font-family="'JetBrains Mono','Fira Code',ui-monospace,'SF Mono',Consolas,monospace" font-size="12" fill="#8b949e" text-anchor="end">6.3%</text>
   </g>
   <g class="seg s3">
     <circle cx="254" cy="139" r="4.5" fill="#e34c26"/>
